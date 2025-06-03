@@ -1,0 +1,59 @@
+family;ID;sex;date of birth (-death);phenotype;number of IA;Location of IA;DNA available;Serum available;ANGPTL6 status;smoking status;smoking quantification (pack/years);high blood pressure;weekly alcohol intake;BMI;history of cardio vascular disease;Diabetis - Dyslipidemia;Aspirin/VitK antagonist;anti-inflammatory;hormone replacement therapy 
+A;II-1;F;1936;unknown*;?*;PICA*;YES;YES;p.Lys460Ter;never smoked;-;HBP treated;< 150g;29;no;dyslipidemia untreated ;VitK antagonist;unknown;unknown
+A;II-2;F;1926;affected;1;ACoA;YES;YES;p.Lys460Ter;never smoked;-;HBP treated;< 150g;unknown;unknown;dyslipidemia statins;no;no;no
+A;II-3;F;1933;healthy;;;YES;YES;p.Lys460Ter;never smoked;-;no;< 150g;20;no;dyslipidemia untreated;no;no;no
+A;II-5;F;1929-1974;affected;1;MCA;no;no;unknown;never smoked;-;HBP treated;< 150g;unknown;no;dyslipidemia ;no;no;no
+A;II-6;M;1930;healthy;;;YES;no;p.Lys460Ter;stopped smoking > 3 years;10;no;< 150g;26;no;dyslipidemia untreated  ;Aspirin;unknown;unknown
+A;III-1;F;1960;affected;3;MCA, ICA, ACA;YES;no;p.Lys460Ter;current smoker;30;HBP treated;> 150g;unknown;no;no;no;no;no
+A;III-2;F;1955;healthy;;;YES;YES;p.Lys460Ter;current smoker;12;unknown;< 150g;20;no;no;no;no;no
+A;III-3;M;1954;healthy;;;YES;YES;no;stopped smoking > 3 years;2;no;< 150g;24;no;no;no;no;no
+A;III-4;F;1957;healthy;;;YES;no;no;stopped smoking > 3 years;10;HBP treated;< 150g;31;no;dyslipidemia untreated;no;no;no
+A;III-5;F;1958;affected;2;ICA, ICA;YES;YES;p.Lys460Ter;never smoked;-;HBP treated;< 150g;23;no;no;no;no;no
+A;III-6;F;1958;healthy;;;YES;YES;no;never smoked;-;no;< 150g;21;no;no;no;no;no
+A;III-7;F;1950;healthy;;;YES;YES;no;never smoked;-;no;< 150g;unknown;no;dyslipidemia untreated;no;no;no
+A;III-8;M;1956;healthy;;;YES;no;no;never smoked;-;no;< 150g;20;no;no;no;no;no
+A;III-9;F;1961;healthy;;;YES;YES;p.Lys460Ter;current smoker;15;no;< 150g;25;no;no;no;no;no
+A;III-10;F;1957;healthy;;;YES;YES;no;stopped smoking > 3 years;<1;no;< 150g;22;no;no;no;no;no
+A;III-11;M;1958;healthy;;;YES;no;p.Lys460Ter;current smoker;10;unknown;< 150g;unknown;no;no;no;no;no
+A;III-12;F;1960;healthy;;;YES;YES;no;never smoked;-;no;< 150g;21;no;Insulino dependant;no;no;no
+A;IV-1;F;1978;affected;1;MCA;YES;YES;p.Lys460Ter;stopped smoking > 3 years;5;no;< 150g;22;no;no;no;no;no
+A;IV-2;M;1980;healthy;;;YES;no;no;current smoker;16;unknown;> 150g;21;no;no;no;no;no
+A;IV-3;M;1985;healthy;;;YES;no;no;stopped smoking < 3 years;2;unknown;> 150g;24;no;no;no;no;no
+A;IV-4;M;1980;healthy;;;YES;no;no;stopped smoking < 3 years;3;no;< 150g;27;no;no;no;no;no
+A;IV-5;M;1985;healthy;;;YES;no;no;stopped smoking > 3 years;<1;unknown;< 150g;24;no;no;VitK antagonist;no;no
+A;IV-6;M;1988;healthy;;;YES;no;no;never smoked;-;no;< 150g;25;no;no;VitK antagonist;no;no
+A;IV-7;F;1983;healthy;;;YES;no;no;current smoker;<1;unknown;< 150g;22;no;no;;no;no
+A;IV-8;F;1985;healthy;;;YES;no;no;never smoked;-;no;< 150g;unknown;no;no;no;no;no
+A;IV-9;M;1980;healthy;;;YES;no;no;current smoker;8;no;< 150g;23;no;no;no;no;no
+A;IV-10;M;1983;healthy;;;YES;no;no;never smoked;-;no;< 150g;26;no;no;no;no;no
+A;IV-11;F;1985;healthy;;;YES;no;no;current smoker;3;unknown;< 150g;unknown;no;no;no;no;no
+B;II-1;F;1951;affected;2;MCA, PCoA;YES;no;p.Glu131Val;current smoker;32;unknown;< 150g;25;no;dyslipidemia statins;no;no;no
+B;II-2;F;1947;affected;1;PCoA;YES;no;p.Glu131Val;never smoked;-;unknown;< 150g;22;no;no;no;no;no
+B;III-1;M;1970;healthy;;;YES;no;p.Glu131Val;stopped smoking < 3 years;46;unknown;> 150g;28;no;no;no;no;no
+B;III-2;F;1975;healthy;;;YES;no;p.Glu131Val;current smoker;12;unknown;< 150g;27;no;no;no;no;no
+C;II-1;M;1948;healthy;;;YES;no;no;stopped smoking > 3 years;10;no;> 150g;22;no;no;no;no;no
+C;II-3;M;1950;healthy;;;YES;no;p.Glu131Val;stopped smoking > 3 years;10;no;> 150g;26;no;no;no;no;no
+C;II-4;M;1956;affected;1;ICA;YES;YES;p.Glu131Val;current smoker;66;no;> 150g;20;no;dyslipidemia statins;no;no;no
+C;II-5;M;1957;affected;2;MCA, ACA;YES;YES;p.Glu131Val;stopped smoking > 3 years;17;HBP treated;< 150g;21;no;no;no;no;no
+C;III-1;M;1970;healthy;;;YES;YES;no;stopped smoking < 3 years;12;no;> 150g;26;no;no;no;no;no
+C;III-2;F;1973;healthy;;;YES;YES;no;never smoked;-;no;< 150g;34;no;no;no;YES;no
+C;III-3;F;1981;healthy;;;YES;no;no;never smoked;-;no;< 150g;22;no;no;no;no;no
+C;III-4;F;1980;healthy;;;YES;YES;no;stopped smoking > 3 years;6;no;< 150g;20;no;no;no;no;no
+C;III-5;M;1979;healthy;;;YES;YES;p.Glu131Val;current smoker;6;no;< 150g;19;no;no;no;no;no
+C;III-6;M;1982;healthy;;;YES;YES;no;current smoker;5;no;> 150g;22;no;no;no;no;no
+D;I-2;F;unknown;affected;;;no;no;unknown;unknown;unknown;unknown;unknown;unknown;unknown;unknown;unknown;unknown;unknown
+D;II-1;F;1960;affected;2;MCA, ;YES;no;p.Leu348Phe;never smoked;-;HBP treated;< 150g;25;no;no;VitK antagonist;no;no
+D;III-1;F;1995;healthy;;;YES;no;no;current smoker;1;no;< 150g;19;no;no;no;no;no
+E;II-1;M;1948;affected;1;ACoA;no;no;unknown;current smoker;30;unknown;> 150g;32;no;no;no;no;no
+E;III-1;M;1970;affected;2;ACoA, ACA;YES;no;p.Ala153ValfsTer66;stopped smoking < 3 years;37;no;> 150g;28;no;no;no;no;no
+E;III-2;F;1972;healthy;;;YES;no;p.Ala153ValfsTer66;current smoker;5;no;< 150g;23;no;no;no;no;no
+E;III-3;M;1975;affected;1;MCA;YES;no;p.Ala153ValfsTer66;current smoker;36;no;> 150g;27;no;no;no;no;no
+F;II-1;F;1954;healthy;;;YES;no;p.Ala153ValfsTer66;never smoked;-;HBP treated;< 150g;29;no;no;no;no;no
+F;II-2;F;1955;healthy;;;YES;no;p.Ala153ValfsTer66;stopped smoking > 3 years;66;no;< 150g;46;no;no;no;no;no
+F;II-3;M;1958;affected;3;ACoA, MCA, MCA;YES;no;p.Ala153ValfsTer66;stopped smoking > 3 years;6;no;< 150g;26;no;dyslipidemia statins;no;no;no
+F;II-4;F;1961;healthy;;;YES;no;no;never smoked;-;no;< 150g;28;no;no;no;no;no
+F;II-5;M;1963;affected;1;ACoA;YES;no;no;never smoked;-;no;< 150g;25;no;no;no;no;no
+F;II-6;M;1965;healthy;;;YES;no;p.Ala153ValfsTer66;never smoked;-;no;< 150g;23;no;no;no;no;no
+F;II-7;M;1969;healthy;;;YES;no;p.Ala153ValfsTer66;never smoked;-;no;< 150g;22;no;no;no;no;no
+F;III-1;F;1982;healthy;;;YES;no;p.Ala153ValfsTer66;current smoker;1;no;< 150g;20;no;no;no;no;no
+F;III-2;F;1987;healthy;;;YES;no;unknown;never smoked;-;no;< 150g;23;no;no;no;no;no

@@ -1,0 +1,82 @@
+@prefix ns1: <http://purl.obolibrary.org/obo/> .
+@prefix sphn: <http://sphn.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ican.ressource.org/individual#A_II-2> a ns1:NCIT_C25190,
+        sphn:SubjectPseudoIdentifier ;
+    ns1:IAO_0000221 <http://ican.ressource.org/individual#A_II-2/age#92>,
+        <http://ican.ressource.org/individual#A_II-2/sex#F> ;
+    sphn:hasDataProvider "ICAN-biocollection"^^xsd:string ;
+    sphn:hasIdentifier "A_II-2"^^xsd:string .
+
+<http://ican.ressource.org/individual#A_II-5> a ns1:NCIT_C25190,
+        sphn:SubjectPseudoIdentifier ;
+    ns1:IAO_0000221 <http://ican.ressource.org/individual#A_II-5/age#45>,
+        <http://ican.ressource.org/individual#A_II-5/sex#F> ;
+    sphn:hasDataProvider "ICAN-biocollection"^^xsd:string ;
+    sphn:hasIdentifier "A_II-5"^^xsd:string .
+
+<http://ican.ressource.org/individual#A_III-1> a ns1:NCIT_C25190,
+        sphn:SubjectPseudoIdentifier ;
+    ns1:IAO_0000221 <http://ican.ressource.org/individual#A_III-1/age#58>,
+        <http://ican.ressource.org/individual#A_III-1/sex#F> ;
+    sphn:hasDataProvider "ICAN-biocollection"^^xsd:string ;
+    sphn:hasIdentifier "A_III-1"^^xsd:string .
+
+<http://ican.ressource.org/individual#A_III-5> a ns1:NCIT_C25190,
+        sphn:SubjectPseudoIdentifier ;
+    ns1:IAO_0000221 <http://ican.ressource.org/individual#A_III-5/age#60>,
+        <http://ican.ressource.org/individual#A_III-5/bmi#23.0>,
+        <http://ican.ressource.org/individual#A_III-5/sex#F> ;
+    sphn:hasDataProvider "ICAN-biocollection"^^xsd:string ;
+    sphn:hasIdentifier "A_III-5"^^xsd:string .
+
+<http://ican.ressource.org/individual#A_II-2/age#92> a ns1:OBI_0001167,
+        sphn:Age ;
+    sphn:hasDeterminationDateTime "2018-01-01T00:00:00"^^xsd:dateTime ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "years" ;
+            sphn:hasValue "92" ] .
+
+<http://ican.ressource.org/individual#A_II-2/sex#F> a ns1:NCIT_C17357,
+        sphn:AdministrativeSex ;
+    sphn:hasCode ns1:NCIT_C16576 .
+
+<http://ican.ressource.org/individual#A_II-5/age#45> a ns1:OBI_0001167,
+        sphn:Age ;
+    sphn:hasDeterminationDateTime "2018-01-01T00:00:00"^^xsd:dateTime ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "years" ;
+            sphn:hasValue "45" ] .
+
+<http://ican.ressource.org/individual#A_II-5/sex#F> a ns1:NCIT_C17357,
+        sphn:AdministrativeSex ;
+    sphn:hasCode ns1:NCIT_C16576 .
+
+<http://ican.ressource.org/individual#A_III-1/age#58> a ns1:OBI_0001167,
+        sphn:Age ;
+    sphn:hasDeterminationDateTime "2018-01-01T00:00:00"^^xsd:dateTime ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "years" ;
+            sphn:hasValue "58" ] .
+
+<http://ican.ressource.org/individual#A_III-1/sex#F> a ns1:NCIT_C17357,
+        sphn:AdministrativeSex ;
+    sphn:hasCode ns1:NCIT_C16576 .
+
+<http://ican.ressource.org/individual#A_III-5/age#60> a ns1:OBI_0001167,
+        sphn:Age ;
+    sphn:hasDeterminationDateTime "2018-01-01T00:00:00"^^xsd:dateTime ;
+    sphn:hasQuantity [ a sphn:Quantity ;
+            sphn:hasUnit "years" ;
+            sphn:hasValue "60" ] .
+
+<http://ican.ressource.org/individual#A_III-5/bmi#23.0> a ns1:NCIT_C16358,
+        sphn:BodyMassIndex ;
+    sphn:hasDeterminationDat "2018-01-01T00:00:00"^^xsd:dateTime ;
+    sphn:hasQuantity 23.0 .
+
+<http://ican.ressource.org/individual#A_III-5/sex#F> a ns1:NCIT_C17357,
+        sphn:AdministrativeSex ;
+    sphn:hasCode ns1:NCIT_C16576 .
+
