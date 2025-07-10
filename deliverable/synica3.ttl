@@ -4,85 +4,322 @@
 @prefix ucum: <https://ucum.org/ucum#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://ican.ressource.org/individual/pid_SIM00178/age/63> a obo:OBI_0001167,
+<http://ican.ressource.org/individual/pid_SIM00234/age/55> a obo:OBI_0001167,
         sphn:Age ;
     rdfs:label "age of the individual at study time"^^xsd:string ;
     sphn:hasDeterminationDateTime "2018-01-01T00:00:00"^^xsd:dateTime ;
-    sphn:hasQuantity <http://ican.ressource.org/individual/pid_SIM00178/quantity/ageAtStudyTime> ;
-    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00178> .
+    sphn:hasQuantity <http://ican.ressource.org/individual/pid_SIM00234/quantity/ageAtStudyTime> ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00234> .
 
-<http://ican.ressource.org/individual/pid_SIM00178/biobanksample/SIM00178> a sphn:BiobankSample ;
+<http://ican.ressource.org/individual/pid_SIM00234/biobanksample/SIM00234> a sphn:BiobankSample ;
     rdfs:label "Biobank sample of the simulated individual from the ICAN Biocollection"^^xsd:string ;
-    sphn:hasIdentifier "SIM00178"^^xsd:string ;
-    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00178> .
+    sphn:hasIdentifier "SIM00234"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00234> .
 
-<http://ican.ressource.org/individual/pid_SIM00178/bmi/27_8> a obo:NCIT_C16358,
+<http://ican.ressource.org/individual/pid_SIM00234/bmi/27_0> a obo:NCIT_C16358,
         sphn:BodyMassIndex ;
     rdfs:label "Body Mass Index of the individual at study time"^^xsd:string ;
     sphn:hasDeterminationDateTime "2018-01-01T00:00:00"^^xsd:dateTime ;
-    sphn:hasQuantity <http://ican.ressource.org/individual/pid_SIM00178/quantity/bmi> ;
-    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00178> .
+    sphn:hasQuantity <http://ican.ressource.org/individual/pid_SIM00234/quantity/bmi> ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00234> .
 
-<http://ican.ressource.org/individual/pid_SIM00178/consent/Yes> a sphn:Consent ;
+<http://ican.ressource.org/individual/pid_SIM00234/consent/Yes> a sphn:Consent ;
     sphn:hasStatusCode "active"^^xsd:string ;
-    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00178> ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00234> ;
     sphn:hasTypeCode obo:DUO_0000037 .
 
-<http://ican.ressource.org/individual/pid_SIM00178/diagnosis/Cerebral_berry_aneurysm> a sphn:Diagnosis ;
+<http://ican.ressource.org/individual/pid_SIM00234/diagnosis/Cerebral_berry_aneurysm> a sphn:Diagnosis ;
+    rdfs:label "Cerebral berry aneurysm"^^xsd:string ;
+    sphn:hasCode obo:HPO_0007029 ;
+    sphn:hasSubjectAge <http://ican.ressource.org/individual/pid_SIM00234/ageAtDiagnosis/55> ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00234> .
+
+<http://ican.ressource.org/individual/pid_SIM00234/drugPrescription/treatmentAnticoagulant> a sphn:DrugPrescription ;
+    sphn:hasDrug <http://ican.ressource.org/drug/treatmentAnticoagulant> ;
+    sphn:hasRecordDateTime "2018-01-01T00:00:00"^^xsd:dateTime ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00234> .
+
+<http://ican.ressource.org/individual/pid_SIM00234/drugPrescription/treatmentAtiplatelet> a sphn:DrugPrescription ;
+    sphn:hasDrug <http://ican.ressource.org/drug/treatmentAtiplatelet> ;
+    sphn:hasRecordDateTime "2018-01-01T00:00:00"^^xsd:dateTime ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00234> .
+
+<http://ican.ressource.org/individual/pid_SIM00234/imagingProcedure/AIC_04_75> a sphn:ImagingProcedure ;
+    rdfs:label "Imaging procedure for the simulated individual from the ICAN Biocollection, the identifier being the [I|U]CAN inclusion number"^^xsd:string ;
+    sphn:hasBodySite <http://ican.ressource.org/individual/pid_SIM00234/imagingProcedure/AIC_04_75/bodySite/brain> ;
+    sphn:hasIdentifier "AIC_04_75"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00234> .
+
+<http://ican.ressource.org/individual/pid_SIM00234/sex/F> a obo:NCIT_C17357,
+        sphn:AdministrativeSex ;
+    sphn:hasCode obo:NCIT_C16576 ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00234> .
+
+<http://ican.ressource.org/individual/pid_SIM00235/age/55> a obo:OBI_0001167,
+        sphn:Age ;
+    rdfs:label "age of the individual at study time"^^xsd:string ;
+    sphn:hasDeterminationDateTime "2018-01-01T00:00:00"^^xsd:dateTime ;
+    sphn:hasQuantity <http://ican.ressource.org/individual/pid_SIM00235/quantity/ageAtStudyTime> ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00235> .
+
+<http://ican.ressource.org/individual/pid_SIM00235/biobanksample/SIM00235> a sphn:BiobankSample ;
+    rdfs:label "Biobank sample of the simulated individual from the ICAN Biocollection"^^xsd:string ;
+    sphn:hasIdentifier "SIM00235"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00235> .
+
+<http://ican.ressource.org/individual/pid_SIM00235/bmi/26_0> a obo:NCIT_C16358,
+        sphn:BodyMassIndex ;
+    rdfs:label "Body Mass Index of the individual at study time"^^xsd:string ;
+    sphn:hasDeterminationDateTime "2018-01-01T00:00:00"^^xsd:dateTime ;
+    sphn:hasQuantity <http://ican.ressource.org/individual/pid_SIM00235/quantity/bmi> ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00235> .
+
+<http://ican.ressource.org/individual/pid_SIM00235/consent/Yes> a sphn:Consent ;
+    sphn:hasStatusCode "active"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00235> ;
+    sphn:hasTypeCode obo:DUO_0000037 .
+
+<http://ican.ressource.org/individual/pid_SIM00235/diagnosis/Cerebral_berry_aneurysm> a sphn:Diagnosis ;
+    rdfs:label "Cerebral berry aneurysm"^^xsd:string ;
+    sphn:hasCode obo:HPO_0007029 ;
+    sphn:hasSubjectAge <http://ican.ressource.org/individual/pid_SIM00235/ageAtDiagnosis/55> ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00235> .
+
+<http://ican.ressource.org/individual/pid_SIM00235/drugPrescription/treatmentAtiplatelet> a sphn:DrugPrescription ;
+    sphn:hasDrug <http://ican.ressource.org/drug/treatmentAtiplatelet> ;
+    sphn:hasRecordDateTime "2018-01-01T00:00:00"^^xsd:dateTime ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00235> .
+
+<http://ican.ressource.org/individual/pid_SIM00235/drugPrescription/treatmentStatines> a sphn:DrugPrescription ;
+    sphn:hasDrug <http://ican.ressource.org/drug/treatmentStatines> ;
+    sphn:hasRecordDateTime "2018-01-01T00:00:00"^^xsd:dateTime ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00235> .
+
+<http://ican.ressource.org/individual/pid_SIM00235/imagingProcedure/AIC_07_76> a sphn:ImagingProcedure ;
+    rdfs:label "Imaging procedure for the simulated individual from the ICAN Biocollection, the identifier being the [I|U]CAN inclusion number"^^xsd:string ;
+    sphn:hasBodySite <http://ican.ressource.org/individual/pid_SIM00235/imagingProcedure/AIC_07_76/bodySite/brain> ;
+    sphn:hasIdentifier "AIC_07_76"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00235> .
+
+<http://ican.ressource.org/individual/pid_SIM00235/sex/F> a obo:NCIT_C17357,
+        sphn:AdministrativeSex ;
+    sphn:hasCode obo:NCIT_C16576 ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00235> .
+
+<http://ican.ressource.org/individual/pid_SIM00236/age/64> a obo:OBI_0001167,
+        sphn:Age ;
+    rdfs:label "age of the individual at study time"^^xsd:string ;
+    sphn:hasDeterminationDateTime "2018-01-01T00:00:00"^^xsd:dateTime ;
+    sphn:hasQuantity <http://ican.ressource.org/individual/pid_SIM00236/quantity/ageAtStudyTime> ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00236> .
+
+<http://ican.ressource.org/individual/pid_SIM00236/biobanksample/SIM00236> a sphn:BiobankSample ;
+    rdfs:label "Biobank sample of the simulated individual from the ICAN Biocollection"^^xsd:string ;
+    sphn:hasIdentifier "SIM00236"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00236> .
+
+<http://ican.ressource.org/individual/pid_SIM00236/bmi/19_7> a obo:NCIT_C16358,
+        sphn:BodyMassIndex ;
+    rdfs:label "Body Mass Index of the individual at study time"^^xsd:string ;
+    sphn:hasDeterminationDateTime "2018-01-01T00:00:00"^^xsd:dateTime ;
+    sphn:hasQuantity <http://ican.ressource.org/individual/pid_SIM00236/quantity/bmi> ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00236> .
+
+<http://ican.ressource.org/individual/pid_SIM00236/consent/Yes> a sphn:Consent ;
+    sphn:hasStatusCode "active"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00236> ;
+    sphn:hasTypeCode obo:DUO_0000037 .
+
+<http://ican.ressource.org/individual/pid_SIM00236/diagnosis/Cerebral_berry_aneurysm> a sphn:Diagnosis ;
+    rdfs:label "Cerebral berry aneurysm"^^xsd:string ;
+    sphn:hasCode obo:HPO_0007029 ;
+    sphn:hasSubjectAge <http://ican.ressource.org/individual/pid_SIM00236/ageAtDiagnosis/64> ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00236> .
+
+<http://ican.ressource.org/individual/pid_SIM00236/imagingProcedure/AIC_06_77> a sphn:ImagingProcedure ;
+    rdfs:label "Imaging procedure for the simulated individual from the ICAN Biocollection, the identifier being the [I|U]CAN inclusion number"^^xsd:string ;
+    sphn:hasBodySite <http://ican.ressource.org/individual/pid_SIM00236/imagingProcedure/AIC_06_77/bodySite/brain> ;
+    sphn:hasIdentifier "AIC_06_77"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00236> .
+
+<http://ican.ressource.org/individual/pid_SIM00236/sex/F> a obo:NCIT_C17357,
+        sphn:AdministrativeSex ;
+    sphn:hasCode obo:NCIT_C16576 ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00236> .
+
+<http://ican.ressource.org/individual/pid_SIM00237/age/55> a obo:OBI_0001167,
+        sphn:Age ;
+    rdfs:label "age of the individual at study time"^^xsd:string ;
+    sphn:hasDeterminationDateTime "2018-01-01T00:00:00"^^xsd:dateTime ;
+    sphn:hasQuantity <http://ican.ressource.org/individual/pid_SIM00237/quantity/ageAtStudyTime> ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00237> .
+
+<http://ican.ressource.org/individual/pid_SIM00237/biobanksample/SIM00237> a sphn:BiobankSample ;
+    rdfs:label "Biobank sample of the simulated individual from the ICAN Biocollection"^^xsd:string ;
+    sphn:hasIdentifier "SIM00237"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00237> .
+
+<http://ican.ressource.org/individual/pid_SIM00237/bmi/23_9> a obo:NCIT_C16358,
+        sphn:BodyMassIndex ;
+    rdfs:label "Body Mass Index of the individual at study time"^^xsd:string ;
+    sphn:hasDeterminationDateTime "2018-01-01T00:00:00"^^xsd:dateTime ;
+    sphn:hasQuantity <http://ican.ressource.org/individual/pid_SIM00237/quantity/bmi> ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00237> .
+
+<http://ican.ressource.org/individual/pid_SIM00237/consent/Yes> a sphn:Consent ;
+    sphn:hasStatusCode "active"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00237> ;
+    sphn:hasTypeCode obo:DUO_0000037 .
+
+<http://ican.ressource.org/individual/pid_SIM00237/diagnosis/Cerebral_berry_aneurysm> a sphn:Diagnosis ;
     rdfs:label "Cerebral berry aneurysm"^^xsd:string,
         "Multiple quantity (here, aneursysms)"^^xsd:string ;
     sphn:hasCode obo:HPO_0007029,
         obo:PATO_0002118 ;
-    sphn:hasSubjectAge <http://ican.ressource.org/individual/pid_SIM00178/ageAtDiagnosis/63> ;
-    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00178> .
+    sphn:hasSubjectAge <http://ican.ressource.org/individual/pid_SIM00237/ageAtDiagnosis/55> ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00237> .
 
-<http://ican.ressource.org/individual/pid_SIM00178/diagnosis/Dyslipidemia> a sphn:Diagnosis ;
-    rdfs:label "Dyslipidemia"^^xsd:string ;
-    sphn:hasCode obo:HPO_0003119 ;
-    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00178> .
-
-<http://ican.ressource.org/individual/pid_SIM00178/imagingProcedure/AIC_06_60> a sphn:ImagingProcedure ;
+<http://ican.ressource.org/individual/pid_SIM00237/imagingProcedure/AIC_04_78> a sphn:ImagingProcedure ;
     rdfs:label "Imaging procedure for the simulated individual from the ICAN Biocollection, the identifier being the [I|U]CAN inclusion number"^^xsd:string ;
-    sphn:hasBodySite <http://ican.ressource.org/individual/pid_SIM00178/imagingProcedure/AIC_06_60/bodySite/brain> ;
-    sphn:hasIdentifier "AIC_06_60"^^xsd:string ;
-    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00178> .
+    sphn:hasBodySite <http://ican.ressource.org/individual/pid_SIM00237/imagingProcedure/AIC_04_78/bodySite/brain> ;
+    sphn:hasIdentifier "AIC_04_78"^^xsd:string ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00237> .
 
-<http://ican.ressource.org/individual/pid_SIM00178/sex/F> a obo:NCIT_C17357,
+<http://ican.ressource.org/individual/pid_SIM00237/sex/M> a obo:NCIT_C17357,
         sphn:AdministrativeSex ;
-    sphn:hasCode obo:NCIT_C16576 ;
-    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00178> .
+    sphn:hasCode obo:NCIT_C20197 ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00237> .
 
-<http://ican.ressource.org/individual/pid_SIM00178/ageAtDiagnosis/63> a obo:OBI_0001167,
+<http://ican.ressource.org/drug/treatmentAnticoagulant> a sphn:Drug ;
+    sphn:hasCode obo:CHEBI_50249 .
+
+<http://ican.ressource.org/drug/treatmentStatines> a sphn:Drug ;
+    sphn:hasCode obo:CHEBI_87631 .
+
+<http://ican.ressource.org/individual/pid_SIM00234/ageAtDiagnosis/55> a obo:OBI_0001167,
         sphn:Age ;
     rdfs:label "age of the individual at first diagnosis of intracranial aneurysm"^^xsd:string ;
-    sphn:hasQuantity <http://ican.ressource.org/individual/pid_SIM00178/quantity/ageAtDiagnosis> ;
-    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00178> .
+    sphn:hasQuantity <http://ican.ressource.org/individual/pid_SIM00234/quantity/ageAtDiagnosis> ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00234> .
 
-<http://ican.ressource.org/individual/pid_SIM00178/imagingProcedure/AIC_06_60/bodySite/brain> a sphn:BodySite ;
+<http://ican.ressource.org/individual/pid_SIM00234/imagingProcedure/AIC_04_75/bodySite/brain> a sphn:BodySite ;
     rdfs:label "Intracranial vasculature"^^xsd:string ;
     sphn:hasCode obo:UBERON_0000955 .
 
-<http://ican.ressource.org/individual/pid_SIM00178/quantity/ageAtDiagnosis> a sphn:Quantity ;
+<http://ican.ressource.org/individual/pid_SIM00234/quantity/ageAtDiagnosis> a sphn:Quantity ;
     sphn:hasUnit ucum:a_j ;
-    sphn:hasValue 63.0 .
+    sphn:hasValue 55.0 .
 
-<http://ican.ressource.org/individual/pid_SIM00178/quantity/ageAtStudyTime> a sphn:Quantity ;
+<http://ican.ressource.org/individual/pid_SIM00234/quantity/ageAtStudyTime> a sphn:Quantity ;
     sphn:hasUnit ucum:a_j ;
-    sphn:hasValue 63.0 .
+    sphn:hasValue 55.0 .
 
-<http://ican.ressource.org/individual/pid_SIM00178/quantity/bmi> a sphn:Quantity ;
+<http://ican.ressource.org/individual/pid_SIM00234/quantity/bmi> a sphn:Quantity ;
     sphn:hasUnit ucum:m-2.g ;
-    sphn:hasValue 27.8 .
+    sphn:hasValue 27.0 .
+
+<http://ican.ressource.org/individual/pid_SIM00235/ageAtDiagnosis/55> a obo:OBI_0001167,
+        sphn:Age ;
+    rdfs:label "age of the individual at first diagnosis of intracranial aneurysm"^^xsd:string ;
+    sphn:hasQuantity <http://ican.ressource.org/individual/pid_SIM00235/quantity/ageAtDiagnosis> ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00235> .
+
+<http://ican.ressource.org/individual/pid_SIM00235/imagingProcedure/AIC_07_76/bodySite/brain> a sphn:BodySite ;
+    rdfs:label "Intracranial vasculature"^^xsd:string ;
+    sphn:hasCode obo:UBERON_0000955 .
+
+<http://ican.ressource.org/individual/pid_SIM00235/quantity/ageAtDiagnosis> a sphn:Quantity ;
+    sphn:hasUnit ucum:a_j ;
+    sphn:hasValue 55.0 .
+
+<http://ican.ressource.org/individual/pid_SIM00235/quantity/ageAtStudyTime> a sphn:Quantity ;
+    sphn:hasUnit ucum:a_j ;
+    sphn:hasValue 55.0 .
+
+<http://ican.ressource.org/individual/pid_SIM00235/quantity/bmi> a sphn:Quantity ;
+    sphn:hasUnit ucum:m-2.g ;
+    sphn:hasValue 26.0 .
+
+<http://ican.ressource.org/individual/pid_SIM00236/ageAtDiagnosis/64> a obo:OBI_0001167,
+        sphn:Age ;
+    rdfs:label "age of the individual at first diagnosis of intracranial aneurysm"^^xsd:string ;
+    sphn:hasQuantity <http://ican.ressource.org/individual/pid_SIM00236/quantity/ageAtDiagnosis> ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00236> .
+
+<http://ican.ressource.org/individual/pid_SIM00236/imagingProcedure/AIC_06_77/bodySite/brain> a sphn:BodySite ;
+    rdfs:label "Intracranial vasculature"^^xsd:string ;
+    sphn:hasCode obo:UBERON_0000955 .
+
+<http://ican.ressource.org/individual/pid_SIM00236/quantity/ageAtDiagnosis> a sphn:Quantity ;
+    sphn:hasUnit ucum:a_j ;
+    sphn:hasValue 64.0 .
+
+<http://ican.ressource.org/individual/pid_SIM00236/quantity/ageAtStudyTime> a sphn:Quantity ;
+    sphn:hasUnit ucum:a_j ;
+    sphn:hasValue 64.0 .
+
+<http://ican.ressource.org/individual/pid_SIM00236/quantity/bmi> a sphn:Quantity ;
+    sphn:hasUnit ucum:m-2.g ;
+    sphn:hasValue 19.7 .
+
+<http://ican.ressource.org/individual/pid_SIM00237/ageAtDiagnosis/55> a obo:OBI_0001167,
+        sphn:Age ;
+    rdfs:label "age of the individual at first diagnosis of intracranial aneurysm"^^xsd:string ;
+    sphn:hasQuantity <http://ican.ressource.org/individual/pid_SIM00237/quantity/ageAtDiagnosis> ;
+    sphn:hasSubjectPseudoIdentifier <http://ican.ressource.org/individual/pid_SIM00237> .
+
+<http://ican.ressource.org/individual/pid_SIM00237/imagingProcedure/AIC_04_78/bodySite/brain> a sphn:BodySite ;
+    rdfs:label "Intracranial vasculature"^^xsd:string ;
+    sphn:hasCode obo:UBERON_0000955 .
+
+<http://ican.ressource.org/individual/pid_SIM00237/quantity/ageAtDiagnosis> a sphn:Quantity ;
+    sphn:hasUnit ucum:a_j ;
+    sphn:hasValue 55.0 .
+
+<http://ican.ressource.org/individual/pid_SIM00237/quantity/ageAtStudyTime> a sphn:Quantity ;
+    sphn:hasUnit ucum:a_j ;
+    sphn:hasValue 55.0 .
+
+<http://ican.ressource.org/individual/pid_SIM00237/quantity/bmi> a sphn:Quantity ;
+    sphn:hasUnit ucum:m-2.g ;
+    sphn:hasValue 23.9 .
+
+<http://ican.ressource.org/drug/treatmentAtiplatelet> a sphn:Drug ;
+    sphn:hasCode obo:NCIT_C1327 .
 
 <http://ican.ressource.org/organisation/dataProvider#ITXUMR1087> a sphn:DataProvider ;
     sphn:hasCategory "research institute"^^xsd:string ;
     sphn:hasInstitutionCode "l institut du thorax UMR1087 Inserm"^^xsd:string .
 
-<http://ican.ressource.org/individual/pid_SIM00178> a obo:NCIT_C16960,
+<http://ican.ressource.org/individual/pid_SIM00236> a obo:NCIT_C16960,
         obo:NCIT_C25190,
         <http://www.ebi.ac.uk/efo/EFO_0022043>,
         sphn:SubjectPseudoIdentifier ;
     rdfs:label "person profile simulatd with probabilities from the ICAN Biocollection"^^xsd:string ;
     sphn:hasDataProvider <http://ican.ressource.org/organisation/dataProvider#ITXUMR1087> ;
-    sphn:hasIdentifier "pid_SIM00178"^^xsd:string .
+    sphn:hasIdentifier "pid_SIM00236"^^xsd:string .
+
+<http://ican.ressource.org/individual/pid_SIM00237> a obo:NCIT_C16960,
+        obo:NCIT_C25190,
+        <http://www.ebi.ac.uk/efo/EFO_0022043>,
+        sphn:SubjectPseudoIdentifier ;
+    rdfs:label "person profile simulatd with probabilities from the ICAN Biocollection"^^xsd:string ;
+    sphn:hasDataProvider <http://ican.ressource.org/organisation/dataProvider#ITXUMR1087> ;
+    sphn:hasIdentifier "pid_SIM00237"^^xsd:string .
+
+<http://ican.ressource.org/individual/pid_SIM00234> a obo:NCIT_C16960,
+        obo:NCIT_C25190,
+        <http://www.ebi.ac.uk/efo/EFO_0022043>,
+        sphn:SubjectPseudoIdentifier ;
+    rdfs:label "person profile simulatd with probabilities from the ICAN Biocollection"^^xsd:string ;
+    sphn:hasDataProvider <http://ican.ressource.org/organisation/dataProvider#ITXUMR1087> ;
+    sphn:hasIdentifier "pid_SIM00234"^^xsd:string .
+
+<http://ican.ressource.org/individual/pid_SIM00235> a obo:NCIT_C16960,
+        obo:NCIT_C25190,
+        <http://www.ebi.ac.uk/efo/EFO_0022043>,
+        sphn:SubjectPseudoIdentifier ;
+    rdfs:label "person profile simulatd with probabilities from the ICAN Biocollection"^^xsd:string ;
+    sphn:hasDataProvider <http://ican.ressource.org/organisation/dataProvider#ITXUMR1087> ;
+    sphn:hasIdentifier "pid_SIM00235"^^xsd:string .
 
